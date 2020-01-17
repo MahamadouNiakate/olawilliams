@@ -1,0 +1,383 @@
+.header-al {
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+}
+
+.necro {
+  margin-left: 500px;
+}
+
+.art {
+  margin-left: 50px;
+}
+
+.blog1 {
+  margin-left: 50px;
+}
+
+.about {
+  margin-left: 50px;
+}
+
+.contact {
+  margin-left: 50px;
+}
+
+.T_Logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.coverLetter {
+  margin-left: -100px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.twitter {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.tumblr {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.Logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.T_Logo {
+  margin-left: 400px;
+  margin-top: 150px;
+}
+
+.link {
+  margin-left: -300px;
+}
+
+.text {
+  margin-left: -600px;
+}
+
+.Logos {
+  margin-left: 10px;
+}
+
+h1 {
+  margin-left: 200px;
+}
+
+.image_Principale {
+  width: 1250px;
+  margin-left: 200px;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.logo_footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  font-size: 15px;
+  margin-left: 300px;
+}
+
+.logo_footer_image {
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
+}
+
+.image_footer {
+  height: 10px;
+}
+
+.Logos_contact {
+  width: 30px;
+}
+
+.twitter_footer {
+  margin-left: 130px;
+}
+
+.twitter_facebook {
+  margin-left: 10px;
+}
+
+.twitter_instagram {
+  margin-left: 10px;
+}
+
+.twitter_tumblr {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.Priestess_image {
+  margin-left: 265px;
+  width: 1100px;
+}
+
+.Shadowmancer_image {
+  margin-left: 265px;
+  width: 1100px;
+}
+
+h2 {
+  margin-left: 265px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Resumer_Priestess {
+  margin-left: 265px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.Resumer_Shadowmancer {
+  margin-left: 265px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+.Portrait {
+  margin-left: 300px;
+  width: 300px;
+}
+
+.Hello {
+  margin-left: 40px;
+}
+
+.description_texte {
+  margin-left: 40px;
+}
+
+.photoDescription {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+
+.necro {
+  background-color: blue;
+  box-shadow: 0 5px 0 darkblue;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.necro:hover {
+  background-color: #1e90ff;
+}
+
+.necro:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+.art {
+  background-color: blue;
+  box-shadow: 0 5px 0 darkblue;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.art:hover {
+  background-color: #1e90ff;
+}
+
+.blog:hover {
+  color: blue;
+}
+
+.about {
+  background-color: blue;
+  box-shadow: 0 5px 0 darkblue;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.about:hover {
+  background-color: #1e90ff;
+}
+
+.contact {
+  background-color: blue;
+  box-shadow: 0 5px 0 darkblue;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contact:hover {
+  background-color: #1e90ff;
+}
+
+.blog1 {
+  background-color: blue;
+  box-shadow: 0 5px 0 darkblue;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.blog1:hover {
+  background-color: #1e90ff;
+}
+
+.description_texte {
+  margin-right: 200px;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  .header-al {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .necro {
+    margin-right: 200px;
+  }
+
+  .art {
+    margin-left: 500px;
+    margin-right: 200px;
+  }
+
+  .about {
+    margin-left: 500px;
+    margin-right: 200px;
+  }
+
+  .contact {
+    margin-left: 500px;
+    margin-right: 200px;
+  }
+
+  .blog1 {
+    margin-left: 500px;
+    margin-right: 200px;
+  }
+
+  .image_Principale {
+    width: 750px;
+  }
+
+  .logo_footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    font-size: 10px;
+    margin-left: 190px;
+  }
+
+  .logo_footer_image {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+  }
+
+  .artwork {
+    margin-left: -100px;
+  }
+
+  .Priestess_image {
+    width: 600px;
+  }
+
+  .Shadowmancer_image {
+    width: 600px;
+  }
+
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .Resumer_Priestess {
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: justify;
+    margin-right: 90px;
+  }
+
+  .Resumer_Shadowmancer {
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: justify;
+    margin-right: 90px;
+  }
+
+  .photoDescription {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description_texte {
+    margin-left: 200px;
+  }
+
+  .Hello {
+    margin-left: 420px;
+  }
+
+  .T_Logo {
+    margin-left: 350px;
+  }
+}
